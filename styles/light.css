@@ -14,6 +14,7 @@
   --background-color: #ffcdf6;
   --main-text-color: #353430;
   --accent-color: #FF8DCB;
+  --border-decorate-color: var(--main-text-color);
   --title-color: var(--pink);
   --accent-text-color: var(--main-text-color);
   --accent-background-color: var(--accent-color);

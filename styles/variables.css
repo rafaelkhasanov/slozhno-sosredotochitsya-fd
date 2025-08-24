@@ -10,6 +10,7 @@
   --main-text-color: var(--pink);
   --background-color: #000028;
   --accent-color: #FF0070;
+  --border-decorate-color: var(--accent-color);
   --title-color: var(--purple);
   --accent-text-color: var(--background-color);
   --accent-background-color: var(--accent-color);
