@@ -21,7 +21,7 @@
   --section-title-color: var(--main-text-color);
   --card-text-color: var(--main-text-color);
   --button-text-color: var(--main-text-color);
-  --border-active-color: var(--main-text-color);
+  --border-button-active-color: var(--main-text-color);
   --border-button-focus-color: var(--main-text-color);
   --border-button-hover-color: rgb(50, 49, 45, 0.4);
 }
