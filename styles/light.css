@@ -10,5 +10,21 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-image: url(../images/cover-image-light.png);
-  --background-color: #FFF1F7;
+  --pink: #FFC2E6;
+  --background-color: #ffcdf6;
+  --main-text-color: #353430;
+  --accent-color: #FF8DCB;
+  --title-color: var(--pink);
+  --accent-text-color: var(--main-text-color);
+  --accent-background-color: var(--accent-color);
+  --section-title-color: var(--main-text-color);
+  --card-text-color: var(--main-text-color);
+  --button-text-color: var(--main-text-color);
+  --border-active-color: var(--main-text-color);
+  --border-button-focus-color: var(--main-text-color);
+  --border-button-hover-color: rgb(50, 49, 45, 0.4);
+}
+
+:root.theme-light .header-decorated-item {
+  display: none;
 }

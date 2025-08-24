@@ -8,8 +8,8 @@
   height: 25px;
   top: 0;
   right: 0;
-  border-top: 1px solid var(--accent-color);
-  border-right: 1px solid var(--accent-color);
+  border-top: 1px solid var(--border-accent-color);
+  border-right: 1px solid var(--border-accent-color);
 }
 
 .decorated-zone::before {
@@ -20,13 +20,13 @@
   height: 25px;
   bottom: 0;
   left: 0;
-  border-bottom: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--border-accent-color);
+  border-left: 1px solid var(--border-accent-color);
 }
 
 .title-decor {
-  color: var(--background-color);
-  background-color: var(--accent-color);
+  color: var(--accent-text-color);
+  background-color: var(--accent-background-color);
 }
 
 .page {
@@ -80,7 +80,7 @@
 }
 
 .header__theme-menu-button {
-  color: var(--accent-color);
+  color: var(--button-text-color);
   background-color: transparent;
   border: none;
   font-size: 18px;
@@ -90,11 +90,11 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--border-active-color);
 }
 
 .header-title {
-  color: var(--purple);
+  color: var(--title-color);
   font-weight: bold;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
@@ -118,6 +118,7 @@
   margin-bottom: 40px;
   display: grid;
   gap: 50px;
+  color: var(--main-text-color);
 }
 
 .section {
@@ -131,7 +132,7 @@
 }
 
 .section-title {
-  color: var(--accent-color);
+  color: var(--section-title-color);
   font-weight: bold;
   line-height: 23px;
 }
@@ -146,7 +147,7 @@
 }
 
 .card-text {
-  color: var(--pink);
+  color: var(--card-text-color);
 }
 
 .card-text-link {
@@ -187,7 +188,7 @@
 }
 
 .footer-title {
-  color: var(--purple);
+  color: var(--title-color);
   font-weight: bold;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;

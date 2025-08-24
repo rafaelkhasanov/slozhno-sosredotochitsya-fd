@@ -4,10 +4,19 @@
 */
 :root {
   --background-image: url(../images/cover-image.png);
-  --background-color: #101024;
   --font-family: 'IBM Plex mono';
   --pink: #f1b2ce;
   --purple: #DB00FF;
+  --main-text-color: var(--pink);
+  --background-color: #000028;
   --accent-color: #FF0070;
-  --title-color: #000028;
+  --title-color: var(--purple);
+  --accent-text-color: var(--background-color);
+  --accent-background-color: var(--accent-color);
+  --section-title-color: var(--accent-color);
+  --card-text-color: var(--main-text-color);
+  --button-text-color: var(--accent-color);
+  --border-active-color: var(--accent-color);
+  --border-button-focus-color: var(--accent-color);
+  --border-button-hover-color: rgb(255, 0, 112, 0.4);
 }
