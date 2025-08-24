@@ -184,6 +184,7 @@
 }
 
 .card-list-item img {
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
@@ -193,6 +194,7 @@
   min-block-size: 668px;
   display: grid;
   align-items: center;
+  justify-content: center;
   position: relative;
 }
 
