@@ -175,17 +175,24 @@
 .card-title-recommendation {
   font-weight: 400;
 }
+/*.card-list {*/
+/*  display: grid;*/
+/*  gap: 10px;*/
+/*}*/
 
-.card-list {
+.gallery {
   display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr;
   gap: 10px;
 }
 
+.gallery img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
 .card-list-item img {
-  height: 100%;
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: cover;
 }
 
