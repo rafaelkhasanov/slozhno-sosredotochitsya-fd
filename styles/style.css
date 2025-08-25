@@ -6,7 +6,7 @@
   display: block;
   width: 25px;
   height: 25px;
-  top: 0;
+  top: 10px;
   right: 0;
   border-top: 1px solid var(--border-decorate-color);
   border-right: 1px solid var(--border-decorate-color);
@@ -18,7 +18,7 @@
   display: block;
   width: 25px;
   height: 25px;
-  bottom: 0;
+  bottom: 10px;
   left: 0;
   border-bottom: 1px solid var(--border-decorate-color);
   border-left: 1px solid var(--border-decorate-color);
@@ -36,7 +36,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-color: var(--background-color);
-  padding: 10px;
+  padding: 0 10px;
 }
 
 .header {
@@ -45,6 +45,7 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   position: relative;
+  padding: 10px 0;
 }
 
 .header-decorated-item {
@@ -52,7 +53,8 @@
   color: var(--accent-color);
   line-height: 25px;
   text-transform: uppercase;
-  right: 9px;
+  right: 10px;
+  top: 10px;
   display: flex;
   gap: 10px;
 }
@@ -143,7 +145,7 @@
 .section-title {
   color: var(--section-title-color);
   font-weight: bold;
-  line-height: 23px;
+  line-height: 23.4px;
 }
 
 .card {
@@ -157,6 +159,8 @@
 
 .card-text {
   color: var(--card-text-color);
+  line-height: 23.4px;
+  font-weight: 400;
 }
 
 .card-text-link {
@@ -172,9 +176,6 @@
   border: 1px solid var(--pink);
 }
 
-.card-title-recommendation {
-  font-weight: 400;
-}
 /*.card-list {*/
 /*  display: grid;*/
 /*  gap: 10px;*/
@@ -190,6 +191,7 @@
   max-height: 100%;
   object-fit: cover;
 }
+
 .card-list-item img {
   max-width: 100%;
   max-height: 100%;
@@ -243,6 +245,11 @@
   .section:nth-child(odd) {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
+  }
+
+  .section-list-subtitle {
+    font-size: 18px;
+    line-height: 23.4px;
   }
 
   .card-list {
