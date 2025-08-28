@@ -11,7 +11,7 @@
   */
   --background-image: url(../images/cover-image-light.png);
   --pink: #FFC2E6;
-  --background-color: #ffcdf6;
+  --background-color: #FFF1F7;
   --main-text-color: #353430;
   --accent-color: #FF8DCB;
   --border-decorate-color: var(--main-text-color);
@@ -26,6 +26,7 @@
   --border-button-hover-color: rgb(50, 49, 45, 0.4);
 }
 
+
 :root.theme-light .header-decorated-item {
   display: none;
 }
@@ -34,7 +35,7 @@
   :root {
     --background-image: url(../images/cover-image-light.png);
     --pink: #FFC2E6;
-    --background-color: #ffcdf6;
+    --background-color: #FFF1F7;
     --main-text-color: #353430;
     --accent-color: #FF8DCB;
     --border-decorate-color: var(--main-text-color);
@@ -47,5 +48,9 @@
     --border-button-active-color: var(--main-text-color);
     --border-button-focus-color: var(--main-text-color);
     --border-button-hover-color: rgb(50, 49, 45, 0.4);
+  }
+
+  :root .header-decorated-item {
+    display: none;
   }
 }
