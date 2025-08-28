@@ -29,3 +29,23 @@
 :root.theme-light .header-decorated-item {
   display: none;
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-image: url(../images/cover-image-light.png);
+    --pink: #FFC2E6;
+    --background-color: #ffcdf6;
+    --main-text-color: #353430;
+    --accent-color: #FF8DCB;
+    --border-decorate-color: var(--main-text-color);
+    --title-color: var(--pink);
+    --accent-text-color: var(--main-text-color);
+    --accent-background-color: var(--accent-color);
+    --section-title-color: var(--main-text-color);
+    --card-text-color: var(--main-text-color);
+    --button-text-color: var(--main-text-color);
+    --border-button-active-color: var(--main-text-color);
+    --border-button-focus-color: var(--main-text-color);
+    --border-button-hover-color: rgb(50, 49, 45, 0.4);
+  }
+}
