@@ -7,7 +7,7 @@
   width: 25px;
   height: 25px;
   top: 10px;
-  right: 0;
+  right: 10px;
   border-top: 1px solid var(--border-decorate-color);
   border-right: 1px solid var(--border-decorate-color);
 }
@@ -19,7 +19,7 @@
   width: 25px;
   height: 25px;
   bottom: 10px;
-  left: 0;
+  left: 10px;
   border-bottom: 1px solid var(--border-decorate-color);
   border-left: 1px solid var(--border-decorate-color);
 }
@@ -36,9 +36,6 @@
   background-size: cover;
   background-attachment: fixed;
   background-color: var(--background-color);
-  padding: 0 10px;
-  display: grid;
-  gap: 40px;
 }
 
 .header {
@@ -47,7 +44,7 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   position: relative;
-  padding: 10px 0;
+  padding: 10px 10px;
 }
 
 .header-decorated-item {
@@ -55,7 +52,7 @@
   color: var(--accent-color);
   line-height: 25px;
   text-transform: uppercase;
-  right: 10px;
+  right: 20px;
   top: 10px;
   display: flex;
   gap: 10px;
@@ -130,6 +127,9 @@
   display: grid;
   gap: 50px;
   color: var(--main-text-color);
+  padding: 0 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .section {
@@ -198,7 +198,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  padding: 10px 0;
+  padding: 10px 10px;
 }
 
 .footer-title {
@@ -211,10 +211,6 @@
 }
 
 @media (width >= 768px) {
-  .page {
-    padding: 0 20px;
-    gap: 60px;
-  }
 
   .decorated-zone::after {
     top: 20px;
@@ -226,11 +222,12 @@
 
   .header {
     grid-template-columns: 1fr 1fr;
-    padding: 20px 0;
+    padding: 20px 20px;
     min-block-size: 1024px;
   }
 
   .header-decorated-item {
+    right: 30px;
     top: 20px;
   }
 
@@ -251,6 +248,8 @@
 
   .main {
     gap: 80px;
+    padding: 0 20px;
+    margin: 60px 0;
   }
 
   .section {
@@ -334,16 +333,24 @@
     grid-column: 2 / 4;
     grid-row: 4 / 5;
   }
+
+  .footer {
+    padding: 0 20px;
+  }
 }
 
 @media (width >= 1024px) {
-  .page {
-    padding: 0 20px;
-  }
-
   .header {
     min-block-size: 768px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .decorated-zone::after {
+    right: 20px;
+  }
+
+  .decorated-zone::before {
+    left: 20px;
   }
 
   .header__theme-menu {
