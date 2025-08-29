@@ -83,7 +83,7 @@
 .header__theme-menu-button {
   color: var(--button-text-color);
   background-color: transparent;
-  border: none;
+  border: 1px solid transparent;
   font-size: 18px;
   line-height: 18px;
   text-transform: lowercase;
