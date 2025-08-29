@@ -171,11 +171,11 @@
 }
 
 .card-text-link:hover {
-  border-bottom: 1px solid var(--pink);
+  border-bottom: 1px solid var(--card-text-link-color);
 }
 
 .card-text-link:focus-visible, .card-text-link:focus {
-  outline: 1px solid var(--pink);
+  outline: 1px solid var(--card-text-link-color);
 }
 
 .recommendations .card-title {

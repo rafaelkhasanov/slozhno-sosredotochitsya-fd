@@ -16,6 +16,7 @@
   --accent-background-color: var(--accent-color);
   --section-title-color: var(--accent-color);
   --card-text-color: var(--main-text-color);
+  --card-text-link-color: var(--pink);
   --button-text-color: var(--accent-color);
   --border-button-active-color: var(--accent-color);
   --border-button-focus-color: var(--accent-color);

@@ -24,6 +24,7 @@
   --border-button-active-color: var(--main-text-color);
   --border-button-focus-color: var(--main-text-color);
   --border-button-hover-color: rgb(50, 49, 45, 0.4);
+  --card-text-link-color: var(--main-text-color);
 }
 
 @media (prefers-color-scheme: light) {
@@ -43,6 +44,7 @@
     --border-button-active-color: var(--main-text-color);
     --border-button-focus-color: var(--main-text-color);
     --border-button-hover-color: rgb(50, 49, 45, 0.4);
+    --card-text-link-color: var(--main-text-color);
   }
 
   :root .header-decorated-item {
