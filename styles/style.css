@@ -91,7 +91,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--border-button-hover-color);
+  outline: 1px solid var(--border-button-hover-color);
 }
 
 .header__theme-menu-button:focus, .header__theme-menu-button:focus-visible {
@@ -174,8 +174,8 @@
   border-bottom: 1px solid var(--pink);
 }
 
-.card-text-link:focus-visible {
-  border: 1px solid var(--pink);
+.card-text-link:focus-visible, .card-text-link:focus{
+  outline: 1px solid var(--pink);
 }
 
 .gallery {
