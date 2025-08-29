@@ -23,3 +23,7 @@
   --border-button-focus-color: var(--accent-color);
   --border-button-hover-color: rgb(255, 0, 112, 0.4);
 }
+
+:root.theme-dark .header-decorated-item {
+  display: flex;
+}

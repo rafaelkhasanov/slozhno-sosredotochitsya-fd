@@ -26,11 +26,6 @@
   --border-button-hover-color: rgb(50, 49, 45, 0.4);
 }
 
-
-:root.theme-light .header-decorated-item {
-  display: none;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --background-image: url(../images/cover-image-light.png);
@@ -53,4 +48,8 @@
   :root .header-decorated-item {
     display: none;
   }
+}
+
+:root.theme-light .header-decorated-item {
+  display: none;
 }
