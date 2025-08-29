@@ -266,12 +266,12 @@
     grid-column: -1 / 2;
   }
 
-  .section:nth-child(2) .section-title {
+  .reduce-concentration .section-title {
     grid-column: 1 / 2;
     grid-row: 1 / 1;
   }
 
-  .section:nth-child(2) .article-list {
+  .reduce-concentration .article-list {
     grid-column: -1 / 1;
   }
 
@@ -385,7 +385,7 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .section:nth-child(2) .article-list {
+  .reduce-concentration .article-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
