@@ -174,7 +174,7 @@
   border-bottom: 1px solid var(--pink);
 }
 
-.card-text-link:focus-visible, .card-text-link:focus{
+.card-text-link:focus-visible, .card-text-link:focus {
   outline: 1px solid var(--pink);
 }
 
