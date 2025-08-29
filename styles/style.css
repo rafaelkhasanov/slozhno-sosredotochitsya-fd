@@ -178,6 +178,10 @@
   outline: 1px solid var(--pink);
 }
 
+.recommendations .card-title {
+  font-weight: 400;
+}
+
 .gallery {
   grid-column: -1 / 1;
   display: grid;
