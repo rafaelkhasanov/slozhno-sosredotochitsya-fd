@@ -87,7 +87,7 @@
   font-size: 18px;
   line-height: 18px;
   text-transform: lowercase;
-  padding: 5px 12px;
+  padding: 3px 12px;
 }
 
 .header__theme-menu-button:hover {
@@ -117,10 +117,6 @@
   font-size: 18px;
   line-height: 23px;
   font-weight: bold;
-}
-
-.header-subtitle span {
-  display: block;
 }
 
 .main {
